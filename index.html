@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mystery Club — антикафе и покер-клуб</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Montserrat:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="#" class="brand">Mystery Club</a>
+    <nav class="header-nav">
+      <a href="#booking" class="nav-link">Забронировать</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-bg"></div>
+      <div class="hero-inner">
+        <div class="hero-logo-wrap">
+          <!-- Замените на свой файл, например images/logo.png -->
+          <img class="hero-logo" src="images/logo.svg" alt="Mystery Club" width="350" height="520" />
+        </div>
+        <p class="hero-lead">
+          Уютная атмосфера, чай, кофе и любимая игра в отличной компании. Играйте на интерес и отлично проводите вечер.
+        </p>
+        <button type="button" class="btn btn-gold js-booking-modal-open" aria-haspopup="dialog">Забронировать место</button>
+      </div>
+    </section>
+
+    <section class="section features" id="about">
+      <div class="container">
+        <header class="section-head">
+          <h1 class="section-title">Идеальный вечер</h1>
+          <p class="section-subtitle">
+            Mystery Club — это атмосферное пространство для игры в покер без денежных ставок. Спортивный азарт, чистые эмоции, логика и дружеское общение без рисков. Информацию о турнирах, расписание и анонсы вы найдёте в наших социальных сетях.
+          </p>
+          <div class="social-row">
+            <a href="https://vk.com/mystery_poker" class="social-link" aria-label="ВКонтакте"><img src="images/VectorVk.svg" alt="" width="26" height="26" decoding="async" /></a>
+            <a href="https://t.me/mystery_poker23" class="social-link" aria-label="Telegram"><img src="images/VectorTG.svg" alt="" width="26" height="26" decoding="async" /></a>
+            <a href="https://max.ru/u/f9LHodD0cOL7yi1y0FMU7LQ5ypMnCCV3cFAZyZlKpwPWFNOSeTVWsqY6K8c" class="social-link" aria-label="Max" target="_blank" rel="noopener noreferrer"><img src="images/VectorMAX.svg" alt="" width="26" height="26" decoding="async" /></a>
+          </div>
+        </header>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66v1.24c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66v1.24c0 .55.47.98.97 1.21 2.18 1.09 3.03 2.58 3.03 4.34"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+            </div>
+            <h3 class="feature-card-title">Дружеские турниры</h3>
+            <p class="feature-card-text">Регулярные события с рейтингом и символическими призами для победителей.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><path d="M6 1v3M10 1v3M14 1v3"/></svg>
+            </div>
+            <h3 class="feature-card-title">Чай и угощения</h3>
+            <p class="feature-card-text">Бесплатные горячие напитки и печенье на протяжении всей вашей игровой сессии.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="9" cy="7" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2M17 21v-1.5a2.5 2.5 0 0 0-2.5-2.5"/></svg>
+            </div>
+            <h3 class="feature-card-title">Настольные игры</h3>
+            <p class="feature-card-text">Помимо покера у нас есть шахматы и нарды.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 2l2.4 7.4h7.6l-6 4.6 2.3 7-6.3-4.6-6.3 4.6 2.3-7-6-4.6h7.6z"/></svg>
+            </div>
+            <h3 class="feature-card-title">Обучение новичков</h3>
+            <p class="feature-card-text">Никогда не играли? Наши доброжелательные ведущие с радостью объяснят все правила.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="section-title">Атмосфера клуба</h2>
+          <p class="section-subtitle">
+            Место, где встречаются спортивный азарт, логика и отличная компания. Загляните к нам до того, как придёте.
+          </p>
+        </header>
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <img src="images/1.jpg" alt="Атмосфера клуба" loading="lazy" width="800" height="600" />
+            <span class="gallery-cam" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="6" width="20" height="14" rx="2"/><circle cx="12" cy="13" r="3"/><path d="M8 6V4h8v2"/></svg></span>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/2.jpg" alt="Атмосфера клуба" loading="lazy" width="800" height="600" />
+            <span class="gallery-cam" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="6" width="20" height="14" rx="2"/><circle cx="12" cy="13" r="3"/><path d="M8 6V4h8v2"/></svg></span>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/3.jpg" alt="Атмосфера клуба" loading="lazy" width="800" height="600" />
+            <span class="gallery-cam" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="6" width="20" height="14" rx="2"/><circle cx="12" cy="13" r="3"/><path d="M8 6V4h8v2"/></svg></span>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/4.jpg" alt="Атмосфера клуба" loading="lazy" width="800" height="600" />
+            <span class="gallery-cam" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="6" width="20" height="14" rx="2"/><circle cx="12" cy="13" r="3"/><path d="M8 6V4h8v2"/></svg></span>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/5.jpg" alt="Атмосфера клуба" loading="lazy" width="800" height="600" />
+            <span class="gallery-cam" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="6" width="20" height="14" rx="2"/><circle cx="12" cy="13" r="3"/><path d="M8 6V4h8v2"/></svg></span>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/6.jpg" alt="Атмосфера клуба" loading="lazy" width="800" height="600" />
+            <span class="gallery-cam" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="6" width="20" height="14" rx="2"/><circle cx="12" cy="13" r="3"/><path d="M8 6V4h8v2"/></svg></span>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="booking">
+      <div class="container">
+        <header class="section-head">
+          <h2 class="section-title">Где нас найти</h2>
+          <p class="section-subtitle">
+            Присоединяйтесь к нам и станьте частью закрытого сообщества любителей покера и хорошего отдыха.
+          </p>
+        </header>
+
+        <div class="map-wrap">
+          <!-- Замените src на код виджета с Яндекс.Карт или Google Maps под ваш адрес -->
+          <iframe
+            class="map-frame"
+            title="Карта: Mystery Club, Краснодар"
+            src="https://yandex.ru/map-widget/v1/-/CPrDYVZV"
+            loading="lazy"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div class="info-cards">
+          <div class="info-card">
+            <div class="info-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="9"/><path d="M12 7v6l4 2"/></svg>
+            </div>
+            <h3 class="info-card-title">Время работы</h3>
+            <p class="info-card-text">Вторник – Воскресенье</p>
+            <p class="info-card-text">18:00 — 01:00</p>
+          </div>
+          <div class="info-card">
+            <div class="info-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <h3 class="info-card-title">Связь с нами</h3>
+            <p class="info-card-text"><a href="tel:+79182332424">+7 (918) 233-24-24</a></p>
+            <p class="info-card-text"><a href="https://t.me/mystery_poker23" target="_blank" rel="noopener noreferrer">@mystery_poker23</a></p>
+          </div>
+        </div>
+
+        <div class="address-note">
+          <p><strong>Адрес клуба:</strong> г. Краснодар, ул. Жлобы, 145</p>
+          <p>Подвальное помещение</p>
+        </div>
+
+        <div class="cta-row">
+          <button type="button" class="btn btn-gold js-booking-modal-open" aria-haspopup="dialog">Забронировать место</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-social-note">Информацию о турнирах, расписание и анонсы смотрите в наших социальных сетях:</p>
+      <div class="social-row">
+        <a href="https://vk.com/mystery_poker" class="social-link" aria-label="ВКонтакте"><img src="images/VectorVk.svg" alt="" width="26" height="26" decoding="async" /></a>
+        <a href="https://t.me/mystery_poker23" class="social-link" aria-label="Telegram"><img src="images/VectorTG.svg" alt="" width="26" height="26" decoding="async" /></a>
+        <a href="https://max.ru/u/f9LHodD0cOL7yi1y0FMU7LQ5ypMnCCV3cFAZyZlKpwPWFNOSeTVWsqY6K8c" class="social-link" aria-label="Max" target="_blank" rel="noopener noreferrer"><img src="images/VectorMAX.svg" alt="" width="26" height="26" decoding="async" /></a>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2025 Mystery Club. Все права защищены.</p>
+        <a href="politika-konfidencialnosti.html" class="footer-link">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="booking-modal" id="booking-modal" aria-labelledby="booking-modal-title">
+    <div class="booking-modal-panel">
+      <button type="button" class="booking-modal-close" aria-label="Закрыть">&times;</button>
+      <h2 id="booking-modal-title" class="booking-modal-title">Запись в клуб</h2>
+      <p class="booking-modal-lead">Свяжитесь с нами удобным способом — мы подберём время и ответим на вопросы.</p>
+      <ul class="booking-modal-contacts">
+        <li class="booking-modal-row">
+          <span class="booking-modal-label">Телефон</span>
+          <a class="booking-modal-value" href="tel:+79182332424">+7 (918) 233-24-24</a>
+        </li>
+        <li class="booking-modal-row">
+          <span class="booking-modal-label">Доп. номер</span>
+          <a class="booking-modal-value" href="tel:+79884047765">+7 (988) 404-77-65</a>
+        </li>
+        <li class="booking-modal-row">
+          <span class="booking-modal-label">Telegram</span>
+          <a class="booking-modal-value" href="https://t.me/mystery_poker23" target="_blank" rel="noopener noreferrer">@mystery_poker23</a>
+        </li>
+        <li class="booking-modal-row">
+          <span class="booking-modal-label">Max</span>
+          <a class="booking-modal-value" href="https://max.ru/mysteryclub" target="_blank" rel="noopener noreferrer">Написать в Max</a>
+        </li>
+      </ul>
+    </div>
+  </dialog>
+
+  <dialog class="gallery-lightbox" id="gallery-lightbox" aria-label="Просмотр фотографии">
+    <div class="gallery-lightbox-panel">
+      <button type="button" class="gallery-lightbox-close" aria-label="Закрыть">&times;</button>
+      <img class="gallery-lightbox-img" src="" alt="" />
+    </div>
+  </dialog>
+
+  <script src="js/booking-modal.js" defer></script>
+  <script src="js/gallery-lightbox.js" defer></script>
+</body>
+</html>
