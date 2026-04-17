@@ -11,7 +11,7 @@
   --text-white: #f0f0f0;
   --font-serif: "Playfair Display", "Times New Roman", serif;
   --font-display: "Cinzel", serif;
-  --font-sans: "Montserrat", system-ui, sans-serif;
+  --font-sans: "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
 *,
@@ -27,9 +27,9 @@ html {
 body {
   margin: 0;
   font-family: var(--font-sans);
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 1.65;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
   color: var(--text-body);
   background: var(--bg);
 }
@@ -136,9 +136,9 @@ img {
 .hero-lead {
   margin: 0 auto 2rem;
   max-width: 34em;
-  font-size: 0.9rem;
-  line-height: 1.75;
-  color: rgba(200, 185, 140, 0.65);
+  font-size: 0.98rem;
+  line-height: 1.7;
+  color: rgba(200, 185, 140, 0.72);
 }
 
 button.btn {
@@ -197,8 +197,8 @@ button.btn {
 .section-subtitle {
   margin: 0 auto;
   max-width: 46rem;
-  font-size: 0.88rem;
-  line-height: 1.7;
+  font-size: 0.95rem;
+  line-height: 1.65;
   color: var(--text-body);
 }
 
@@ -261,7 +261,7 @@ button.btn {
 
 .feature-card-title {
   margin: 0 0 0.75rem;
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 1.05rem;
   font-weight: 600;
   color: var(--text-white);
@@ -269,8 +269,8 @@ button.btn {
 
 .feature-card-text {
   margin: 0;
-  font-size: 0.82rem;
-  line-height: 1.65;
+  font-size: 0.9rem;
+  line-height: 1.6;
   color: var(--text-body);
   text-align: left;
 }
@@ -396,15 +396,15 @@ button.btn {
 
 .info-card-title {
   margin: 0 0 0.75rem;
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 1.15rem;
   color: var(--text-white);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .info-card-text {
   margin: 0 0 0.35rem;
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   color: var(--text-body);
 }
 
@@ -424,14 +424,14 @@ button.btn {
 .address-note {
   text-align: center;
   margin-bottom: 2rem;
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   color: var(--text-body);
 }
 
 .address-note strong {
   color: var(--gold-muted);
-  font-family: var(--font-serif);
-  font-weight: 500;
+  font-family: var(--font-sans);
+  font-weight: 600;
 }
 
 .address-note p {
@@ -459,8 +459,8 @@ button.btn {
   margin: 0;
   max-width: 28rem;
   text-align: center;
-  font-size: 0.8rem;
-  line-height: 1.55;
+  font-size: 0.875rem;
+  line-height: 1.6;
   color: #888;
 }
 
@@ -578,17 +578,17 @@ button.btn {
 
 .booking-modal-title {
   margin: 0 2rem 0.75rem 0;
-  font-family: var(--font-serif);
-  font-weight: 500;
-  font-size: 1.5rem;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 1.45rem;
   color: var(--gold-muted);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
 }
 
 .booking-modal-lead {
   margin: 0 0 1.5rem;
-  font-size: 0.85rem;
-  line-height: 1.65;
+  font-size: 0.95rem;
+  line-height: 1.6;
   color: var(--text-body);
 }
 
@@ -730,8 +730,8 @@ button.btn {
   max-width: 42rem;
   margin: 0 auto;
   color: var(--text-body);
-  font-size: 0.9rem;
-  line-height: 1.7;
+  font-size: 1rem;
+  line-height: 1.65;
 }
 
 .legal-doc h1 {
